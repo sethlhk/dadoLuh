@@ -44,7 +44,8 @@ class MainActivity : ComponentActivity() {
 @Preview
 @Composable
 fun RolaDado(){
- var resultado= 1
+
+    var resultado= 1
     Text(
         text = "1d6",
         fontSize = 35.sp,
